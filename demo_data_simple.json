@@ -1,0 +1,89 @@
+{
+  "test_items": [
+    {
+      "test_id": 1,
+      "test_phase": "系统测试",
+      "test_group": "基础功能",
+      "test_item": "系统启动测试",
+      "required_equipment": "测试台",
+      "required_instruments": "无",
+      "duration": 2
+    },
+    {
+      "test_id": 2,
+      "test_phase": "系统测试",
+      "test_group": "基础功能", 
+      "test_item": "用户登录验证",
+      "required_equipment": "测试台",
+      "required_instruments": "无",
+      "duration": 1
+    },
+    {
+      "test_id": 3,
+      "test_phase": "系统测试",
+      "test_group": "性能测试",
+      "test_item": "响应时间测试",
+      "required_equipment": "负载测试仪",
+      "required_instruments": "性能监控仪",
+      "duration": 4
+    },
+    {
+      "test_id": 4,
+      "test_phase": "集成测试",
+      "test_group": "接口测试",
+      "test_item": "数据库连接测试",
+      "required_equipment": "数据库服务器",
+      "required_instruments": "网络分析仪",
+      "duration": 3
+    },
+    {
+      "test_id": 5,
+      "test_phase": "集成测试",
+      "test_group": "接口测试",
+      "test_item": "API接口测试",
+      "required_equipment": "测试台",
+      "required_instruments": "网络分析仪",
+      "duration": 3
+    },
+    {
+      "test_id": 6,
+      "test_phase": "验收测试",
+      "test_group": "用户验收",
+      "test_item": "功能完整性验收",
+      "required_equipment": "用户终端",
+      "required_instruments": "无",
+      "duration": 6
+    },
+    {
+      "test_id": 7,
+      "test_phase": "验收测试",
+      "test_group": "性能验收",
+      "test_item": "性能指标验收",
+      "required_equipment": "负载测试仪",
+      "required_instruments": "性能监控仪",
+      "duration": 4
+    },
+    {
+      "test_id": 8,
+      "test_phase": "验收测试",
+      "test_group": "安全验收",
+      "test_item": "安全漏洞扫描",
+      "required_equipment": "安全测试工具",
+      "required_instruments": "漏洞扫描仪",
+      "duration": 5
+    }
+  ],
+  "dependencies": {
+    "用户登录验证": ["系统启动测试"],
+    "响应时间测试": ["用户登录验证"],
+    "API接口测试": ["数据库连接测试"],
+    "功能完整性验收": ["响应时间测试", "API接口测试"],
+    "性能指标验收": ["响应时间测试"],
+    "安全漏洞扫描": ["功能完整性验收"]
+  },
+  "instruments": {
+    "性能监控仪": 1,
+    "网络分析仪": 1,
+    "漏洞扫描仪": 1
+  }
+}
