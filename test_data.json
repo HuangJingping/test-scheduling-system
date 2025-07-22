@@ -1,0 +1,206 @@
+{
+  "test_items": [
+    {
+      "test_id": 1,
+      "test_phase": "专项测试1（资料查询、设备级、单节点测试，小场地）",
+      "test_group": "系统",
+      "test_item": "系统齐套性检查",
+      "required_equipment": "无",
+      "required_instruments": "无",
+      "duration": 4
+    },
+    {
+      "test_id": 2,
+      "test_phase": "专项测试1（资料查询、设备级、单节点测试，小场地）",
+      "test_group": "系统",
+      "test_item": "系统外观检查",
+      "required_equipment": "无",
+      "required_instruments": "无",
+      "duration": 2
+    },
+    {
+      "test_id": 3,
+      "test_phase": "专项测试2（节点间互联，小场地）",
+      "test_group": "微波网络电台",
+      "test_item": "微波网络电台架构",
+      "required_equipment": "旅级通信节点×1,营级通信节点×4,空中通信节点×1",
+      "required_instruments": "无",
+      "duration": 4
+    },
+    {
+      "test_id": 4,
+      "test_phase": "专项测试3（大场地）",
+      "test_group": "微波网络电台",
+      "test_item": "微波网络电台工作频段",
+      "required_equipment": "无",
+      "required_instruments": "无",
+      "duration": 1
+    },
+    {
+      "test_id": 5,
+      "test_phase": "专项测试2（节点间互联，小场地）",
+      "test_group": "微波网络电台",
+      "test_item": "微波网络电台抗干扰",
+      "required_equipment": "旅级通信节点×1,营级通信节点×4,空中通信节点×1",
+      "required_instruments": "频谱分析仪×1,通信干扰设备×1",
+      "duration": 4
+    },
+    {
+      "test_id": 6,
+      "test_phase": "专项测试2（节点间互联，小场地）",
+      "test_group": "微波网络电台",
+      "test_item": "微波网络电台调制方式",
+      "required_equipment": "旅级通信节点×1,营级通信节点×4,空中通信节点×1",
+      "required_instruments": "信号分析仪×1",
+      "duration": 4
+    },
+    {
+      "test_id": 7,
+      "test_phase": "专项测试2（节点间互联，小场地）",
+      "test_group": "微波网络电台",
+      "test_item": "微波网络电台无线组网",
+      "required_equipment": "旅级通信节点×1,营级通信节点×4,空中通信节点×1",
+      "required_instruments": "无",
+      "duration": 4
+    },
+    {
+      "test_id": 8,
+      "test_phase": "专项测试1（资料查询、设备级、单节点测试，小场地）",
+      "test_group": "微波网络电台",
+      "test_item": "微波网络电台网络规模",
+      "required_equipment": "无",
+      "required_instruments": "无",
+      "duration": 1
+    },
+    {
+      "test_id": 9,
+      "test_phase": "专项测试2（节点间互联，小场地）",
+      "test_group": "微波网络电台",
+      "test_item": "微波网络电台信道带宽",
+      "required_equipment": "旅级通信节点×1,营级通信节点×4,空中通信节点×1",
+      "required_instruments": "信号分析仪×1",
+      "duration": 4
+    },
+    {
+      "test_id": 10,
+      "test_phase": "专项测试2（节点间互联，小场地）",
+      "test_group": "微波网络电台",
+      "test_item": "微波网络电台工作方式",
+      "required_equipment": "旅级通信节点×1,营级通信节点×4,空中通信节点×1",
+      "required_instruments": "信号分析仪×1",
+      "duration": 4
+    },
+    {
+      "test_id": 11,
+      "test_phase": "专项测试2（节点间互联，小场地）",
+      "test_group": "微波网络电台",
+      "test_item": "微波网络电台通信速率",
+      "required_equipment": "旅级通信节点×1,营级通信节点×4,空中通信节点×1",
+      "required_instruments": "无",
+      "duration": 4
+    },
+    {
+      "test_id": 12,
+      "test_phase": "专项测试3（大场地）",
+      "test_group": "微波网络电台",
+      "test_item": "微波网络电台通信距离",
+      "required_equipment": "旅级通信节点×1,营级通信节点×4,空中通信节点×1",
+      "required_instruments": "无",
+      "duration": 4
+    },
+    {
+      "test_id": 13,
+      "test_phase": "专项测试3（大场地）",
+      "test_group": "微波网络电台",
+      "test_item": "微波网络电台移动性",
+      "required_equipment": "旅级通信节点×1,营级通信节点×4,空中通信节点×1",
+      "required_instruments": "无",
+      "duration": 4
+    },
+    {
+      "test_id": 14,
+      "test_phase": "专项测试2（节点间互联，小场地）",
+      "test_group": "微波网络电台",
+      "test_item": "微波网络电台管理控制",
+      "required_equipment": "旅级通信节点×1,营级通信节点×4,空中通信节点×1",
+      "required_instruments": "无",
+      "duration": 4
+    },
+    {
+      "test_id": 15,
+      "test_phase": "专项测试1（资料查询、设备级、单节点测试，小场地）",
+      "test_group": "微波网络电台",
+      "test_item": "微波网络电台设备重量",
+      "required_equipment": "微波网络电台机载台×1",
+      "required_instruments": "台秤×1",
+      "duration": 1
+    },
+    {
+      "test_id": 16,
+      "test_phase": "专项测试2（节点间互联，小场地）",
+      "test_group": "微波网络电台",
+      "test_item": "微波网络电台设备接口",
+      "required_equipment": "微波网络电台车载台×1,空中通信节点×1",
+      "required_instruments": "无",
+      "duration": 1
+    },
+    {
+      "test_id": 17,
+      "test_phase": "专项测试1（资料查询、设备级、单节点测试，小场地）",
+      "test_group": "宽频段电台",
+      "test_item": "宽频段电台架构",
+      "required_equipment": "宽频段电台×2",
+      "required_instruments": "无",
+      "duration": 4
+    },
+    {
+      "test_id": 18,
+      "test_phase": "专项测试3（大场地）",
+      "test_group": "宽频段电台",
+      "test_item": "宽频段电台工作频段",
+      "required_equipment": "无",
+      "required_instruments": "无",
+      "duration": 1
+    },
+    {
+      "test_id": 19,
+      "test_phase": "专项测试1（资料查询、设备级、单节点测试，小场地）",
+      "test_group": "宽频段电台",
+      "test_item": "宽频段电台调制方式",
+      "required_equipment": "宽频段电台×2",
+      "required_instruments": "信号分析仪×1",
+      "duration": 1
+    },
+    {
+      "test_id": 20,
+      "test_phase": "专项测试1（资料查询、设备级、单节点测试，小场地）",
+      "test_group": "宽频段电台",
+      "test_item": "宽频段电台自适应跳频",
+      "required_equipment": "宽频段电台车载台×8,宽频段电台背负台×3,宽频段电台手持台×3",
+      "required_instruments": "信号分析仪×1,通信干扰设备×1",
+      "duration": 1
+    }
+  ],
+  "dependencies": {
+    "通信覆盖能力": ["旅营级通信节点通信距离"],
+    "机动保障能力": ["旅营级通信节点移动性", "微波网络电台移动性", "卫星散射双模通信设备移动性"],
+    "抗毁抗扰能力": ["系统齐套性检查", "旅营级通信节点业务传输", "微波网络电台抗干扰", "宽频段电台跳频速率"],
+    "微波网络电台工作频段": ["微波网络电台通信速率", "微波网络电台通信距离"],
+    "微波网络电台无线组网": ["微波网络电台抗干扰", "微波网络电台调制方式"],
+    "微波网络电台设备接口": ["微波网络电台管理控制"],
+    "宽频段电台工作频段": ["宽频段电台通信距离", "宽频段电台通信速率"]
+  },
+  "instruments": {
+    "综合测试仪": 1,
+    "频谱分析仪": 1,
+    "信号源": 1,
+    "信号分析仪": 2,
+    "矩阵衰减器": 1,
+    "台秤": 1,
+    "通信干扰设备": 1,
+    "误码仪": 1,
+    "车载式对抗装备": 18,
+    "便携式对抗装备": 20,
+    "电子蓝军模拟作战指挥系统": 1
+  }
+}

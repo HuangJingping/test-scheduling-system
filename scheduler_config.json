@@ -1,0 +1,29 @@
+{
+  "priority_weights": {
+    "dependency": 10,
+    "duration": 2,
+    "resource": 5,
+    "phase": 20,
+    "continuity": 50,
+    "group_phase_boost": 450
+  },
+  "working_time": {
+    "hours_per_day": 8,
+    "rest_day_cycle": 7,
+    "max_daily_tests": 5,
+    "short_test_threshold": 8
+  },
+  "scheduling": {
+    "max_parallel": 3,
+    "max_parallel_per_phase": 3,
+    "lookback_window": 8,
+    "time_limit_hours": null
+  },
+  "output": {
+    "excel_filename": "test_schedule_refactored.xlsx",
+    "show_detailed_table": true,
+    "show_statistics": true,
+    "export_to_excel": true,
+    "date_format": "第{day}天{hour}点"
+  }
+}
