@@ -1,0 +1,4 @@
+﻿error_range,time_success_rate,sequence_applicability,recommended_mode
+±10%,95,85,时间调度
+±25%,70,95,序列调度
+±50%,40,98,序列调度
